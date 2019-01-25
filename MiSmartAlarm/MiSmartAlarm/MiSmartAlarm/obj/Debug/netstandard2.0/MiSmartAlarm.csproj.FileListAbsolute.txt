@@ -1,0 +1,13 @@
+D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\bin\Debug\netstandard2.0\MiSmartAlarm.deps.json
+D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\bin\Debug\netstandard2.0\MiSmartAlarm.dll
+D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\bin\Debug\netstandard2.0\MiSmartAlarm.pdb
+D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\obj\Debug\netstandard2.0\MiSmartAlarm.csprojAssemblyReference.cache
+D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\obj\Debug\netstandard2.0\MiSmartAlarm.csproj.CoreCompileInputs.cache
+D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\obj\Debug\netstandard2.0\MiSmartAlarm.AssemblyInfoInputs.cache
+D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\obj\Debug\netstandard2.0\MiSmartAlarm.AssemblyInfo.cs
+D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\obj\Debug\netstandard2.0\XamlC.stamp
+D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\obj\Debug\netstandard2.0\MiSmartAlarm.dll
+D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\obj\Debug\netstandard2.0\MiSmartAlarm.pdb
+D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\obj\Debug\netstandard2.0\AboutPage.xaml.g.cs

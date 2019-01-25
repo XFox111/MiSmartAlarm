@@ -1,0 +1,1 @@
+D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.UWP\MiSmartAlarm.UWP.csproj;x86
