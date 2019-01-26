@@ -24,9 +24,9 @@ namespace MiSmartAlarm
             await Navigation.PushAsync(new AboutPage());
         }
 
-        private void Add_Activated(object sender, EventArgs e)
+        private async void Add_Activated(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new AlarmPage());
         }
     }
 }
