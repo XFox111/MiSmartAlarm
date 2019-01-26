@@ -11,3 +11,4 @@ D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\obj\Deb
 D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\obj\Debug\netstandard2.0\MiSmartAlarm.dll
 D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\obj\Debug\netstandard2.0\MiSmartAlarm.pdb
 D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\obj\Debug\netstandard2.0\AboutPage.xaml.g.cs
+D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\obj\Debug\netstandard2.0\SettingsPage.xaml.g.cs

@@ -1,7 +1,5 @@
 D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\bin\Debug\MiSmartAlarm.Android.dll
 D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\bin\Debug\MiSmartAlarm.Android.pdb
-D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\bin\Debug\com.companyname.apk
-D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\bin\Debug\com.companyname-Signed.apk
 D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\bin\Debug\MiSmartAlarm.dll
 D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\bin\Debug\MiSmartAlarm.pdb
 D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
@@ -14,7 +12,6 @@ D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android
 D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\obj\Debug\81\MiSmartAlarm.Android.csproj.CopyComplete
 D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\obj\Debug\81\MiSmartAlarm.Android.dll
 D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\obj\Debug\81\MiSmartAlarm.Android.pdb
-D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\obj\Debug\81\android\bin\com.companyname.apk
 D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\obj\Debug\81\res\layout\tabbar.xml
 D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\obj\Debug\81\res\layout\toolbar.xml
 D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\obj\Debug\81\res\values\styles.xml
@@ -34,6 +31,7 @@ D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android
 D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\obj\Debug\81\R.cs.flag
 D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\obj\Debug\81\R.txt
 D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\obj\Debug\81\uploadflags.txt
+D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\bin\Debug\MiSmartAlarm.dll.mdb
 D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\bin\Debug\FormsViewGroup.pdb
 D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\bin\Debug\Mono.Android.pdb
 D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\bin\Debug\mscorlib.pdb
@@ -77,7 +75,6 @@ D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android
 D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\obj\Debug\81\linksrc\System.ServiceModel.Internals.pdb
 D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\obj\Debug\81\linksrc\System.Web.Services.pdb
 D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\obj\Debug\81\linksrc\Mono.Security.pdb
-D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\bin\Debug\MiSmartAlarm.dll.mdb
 D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\obj\Debug\81\linksrc\MiSmartAlarm.dll.mdb
 D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\obj\Debug\81\android\assets\MiSmartAlarm.dll.mdb
 D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\obj\Debug\81\android\assets\FormsViewGroup.pdb
@@ -102,6 +99,14 @@ D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android
 D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
+D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\bin\Debug\com.xfox.apk
+D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\bin\Debug\com.xfox-Signed.apk
+D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\obj\Debug\81\android\bin\com.xfox.apk
+D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\obj\Debug\81\res\drawable\delete.png
+D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\obj\Debug\81\res\drawable\info.png
+D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\obj\Debug\81\res\drawable\save.png
+D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\obj\Debug\81\res\drawable\settings.png
+D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\obj\Debug\81\res\drawable\add.png
 D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\bin\Debug\netstandard2.0\MiSmartAlarm.dll
 D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\obj\Debug\81\linksrc\MiSmartAlarm.Android.pdb
 D:\XFox\Repositories\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm\MiSmartAlarm.Android\bin\Debug\MiSmartAlarm.dll.mdb

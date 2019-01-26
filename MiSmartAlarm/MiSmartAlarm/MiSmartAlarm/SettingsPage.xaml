@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MiSmartAlarm.SettingsPage"
+             Title="Settings">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Save" Activated="ToolbarItem_Activated" Icon="save.png"/>
+    </ContentPage.ToolbarItems>
+    
+    <ScrollView>
+        <StackLayout>
+            <Label FontSize="Medium" Text="MiBand pairing"/>
+            <Entry Placeholder="Enter your MiBand MAC address here"/>
+            <Label FontSize="Small" TextDecorations="Underline" Text="I don't know MAC address"/>
+            <StackLayout Orientation="Horizontal">
+                <Button Text="Autofill" Clicked="MacFill_Clicked"/>
+                <Button Text="Check" Clicked="CheckMac_Clicked"/>
+            </StackLayout>
+
+            <Label FontSize="Medium" Text="General settings" Margin="0,20,0,10"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+                <Label Text="Turn off bluetooth after alarm is done"/>
+                <Switch Grid.Column="1"/>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="75"/>
+                </Grid.ColumnDefinitions>
+                <Label Text="Smart alarm range, min"/>
+                <Entry Grid.Column="1"/>
+            </Grid>
+
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="75"/>
+                </Grid.ColumnDefinitions>
+                <Label Text="Vibrations count"/>
+                <Entry Grid.Column="1"/>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="75"/>
+                </Grid.ColumnDefinitions>
+                <Label Text="Pause between vibrations, ms"/>
+                <Entry Grid.Column="1"/>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="75"/>
+                </Grid.ColumnDefinitions>
+                <Label Text="Vibrations duration, ms"/>
+                <Entry Grid.Column="1"/>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="75"/>
+                </Grid.ColumnDefinitions>
+                <Label Text="Icon"/>
+                <Entry Grid.Column="1"/>
+            </Grid>
+            <Button Text="Check" Clicked="CheckAlarm_Clicked"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

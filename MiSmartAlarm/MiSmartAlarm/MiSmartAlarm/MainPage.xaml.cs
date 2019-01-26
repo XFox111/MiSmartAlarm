@@ -14,14 +14,19 @@ namespace MiSmartAlarm
             InitializeComponent();
         }
         
-        private void SettingsButton_Activated(object sender, EventArgs e)
+        private async void SettingsButton_Activated(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new SettingsPage());
         }
 
-        private void AboutButton_Activated(object sender, EventArgs e)
+        private async void AboutButton_Activated(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new AboutPage());
+            await Navigation.PushAsync(new AboutPage());
+        }
+
+        private void Add_Activated(object sender, EventArgs e)
+        {
+
         }
     }
 }
