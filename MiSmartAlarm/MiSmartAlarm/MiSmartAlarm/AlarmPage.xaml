@@ -4,11 +4,12 @@
              x:Class="MiSmartAlarm.AlarmPage">
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Save" Icon="save.png" Activated="Save_Activated"/>
+        <ToolbarItem Text="Remove" Icon="delete.png" Activated="Delete_Activated"/>
     </ContentPage.ToolbarItems>
 
     <ScrollView>
         <StackLayout Margin="10">
-            <Entry Placeholder="Alarm name" Text="Alarm 1"/>
+            <Entry Placeholder="Alarm name" x:Name="name" Text="Alarm 1"/>
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition/>
@@ -19,11 +20,18 @@
             </Grid>
             <Grid>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
                     <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
                 <Label VerticalTextAlignment="Center" Text="Type"/>
-                <Picker x:Name="type" Grid.Column="1"/>
+                <Picker x:Name="type" Grid.Column="1">
+                    <Picker.Items>
+                        <x:String>MiSmart alarm</x:String>
+                        <x:String>Default</x:String>
+                        <x:String>Timer</x:String>
+                        <x:String>Smart alarm (built-in)</x:String>
+                    </Picker.Items>
+                </Picker>
             </Grid>
 
             <Grid>
@@ -50,6 +58,14 @@
                 </Grid.ColumnDefinitions>
                 <Label VerticalTextAlignment="Center" Text="End at"/>
                 <TimePicker x:Name="endAt" Grid.Column="1"/>
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+                <Label VerticalTextAlignment="Center" Text="Interval"/>
+                <TimePicker x:Name="interval" Grid.Column="1"/>
             </Grid>
 
 
