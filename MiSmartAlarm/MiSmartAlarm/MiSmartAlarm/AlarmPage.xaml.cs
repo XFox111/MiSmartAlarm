@@ -7,12 +7,17 @@ namespace MiSmartAlarm
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AlarmPage : ContentPage
     {
-        Alarm Alarm { get; set; } = new Alarm();
+        Alarm Alarm = new Alarm();
         public AlarmPage(Alarm alarm = null)
         {
             InitializeComponent();
             if (alarm != null)
                 Alarm = alarm;
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
 
             name.Text = Alarm.Name;
             enabled.IsToggled = Alarm.IsEnabled;
@@ -63,7 +68,11 @@ namespace MiSmartAlarm
             foreach (var i in Alarm.Days)
                 Alarm.Days[i.Key] = ((Switch)FindByName(i.Key)).IsToggled;
 
-            // TODO: Save configuration
+            if (Storage.Alarms.Contains(Alarm))
+                Storage.Alarms.Remove(Alarm);
+            Storage.Alarms.Add(Alarm);
+            Storage.Save();
+
             if (Alarm.IsEnabled)
             {
                 // TODO: Set alarm
@@ -75,7 +84,7 @@ namespace MiSmartAlarm
 
         private void Delete_Activated(object sender, EventArgs e)
         {
-            // TODO: Delete alarm
+            Storage.Alarms.Remove(Alarm);
         }
     }
 }

@@ -75,7 +75,7 @@
                     <ColumnDefinition Width="75"/>
                 </Grid.ColumnDefinitions>
                 <Label Text="Monday"/>
-                <Switch IsToggled="True" Grid.Column="1"/>
+                <Switch x:Name="monday" IsToggled="True" Grid.Column="1"/>
             </Grid>
 
 
@@ -85,7 +85,7 @@
                     <ColumnDefinition Width="75"/>
                 </Grid.ColumnDefinitions>
                 <Label Text="Tuesday"/>
-                <Switch IsToggled="True" Grid.Column="1"/>
+                <Switch x:Name="tuesday" IsToggled="True" Grid.Column="1"/>
             </Grid>
             <Grid>
                 <Grid.ColumnDefinitions>
@@ -93,7 +93,7 @@
                     <ColumnDefinition Width="75"/>
                 </Grid.ColumnDefinitions>
                 <Label Text="Wednesday"/>
-                <Switch IsToggled="True" Grid.Column="1"/>
+                <Switch x:Name="wednesday" IsToggled="True" Grid.Column="1"/>
             </Grid>
             <Grid>
                 <Grid.ColumnDefinitions>
@@ -101,7 +101,7 @@
                     <ColumnDefinition Width="75"/>
                 </Grid.ColumnDefinitions>
                 <Label Text="Thursday"/>
-                <Switch IsToggled="True" Grid.Column="1"/>
+                <Switch x:Name="thursday" IsToggled="True" Grid.Column="1"/>
             </Grid>
             <Grid>
                 <Grid.ColumnDefinitions>
@@ -109,7 +109,7 @@
                     <ColumnDefinition Width="75"/>
                 </Grid.ColumnDefinitions>
                 <Label Text="Friday"/>
-                <Switch IsToggled="True" Grid.Column="1"/>
+                <Switch x:Name="friday" IsToggled="True" Grid.Column="1"/>
             </Grid>
             <Grid>
                 <Grid.ColumnDefinitions>
@@ -117,7 +117,7 @@
                     <ColumnDefinition Width="75"/>
                 </Grid.ColumnDefinitions>
                 <Label Text="Saturday"/>
-                <Switch IsToggled="True" Grid.Column="1"/>
+                <Switch x:Name="saturday" IsToggled="True" Grid.Column="1"/>
             </Grid>
             <Grid>
                 <Grid.ColumnDefinitions>
@@ -125,7 +125,7 @@
                     <ColumnDefinition Width="75"/>
                 </Grid.ColumnDefinitions>
                 <Label Text="Sunday"/>
-                <Switch IsToggled="True" Grid.Column="1"/>
+                <Switch x:Name="sunday" IsToggled="True" Grid.Column="1"/>
             </Grid>
         </StackLayout>
     </ScrollView>

@@ -6,7 +6,8 @@ namespace MiSmartAlarm
     public enum AlarmType { MiSmart, Default, Timer, Smart }
     public class Alarm
     {
-        public string Name { get; set; } = $"Alarm";
+        public int Id { get; set; }
+        public string Name { get; set; }
         public bool IsEnabled { get; set; } = false;
         public AlarmType Type { get; set; } = AlarmType.Default;
         public TimeSpan Time { get; set; } = TimeSpan.FromHours(8);
@@ -22,5 +23,13 @@ namespace MiSmartAlarm
             { "friday", true },
             { "saturday", true },
         };
+
+        public string Icon => IsEnabled ? "on.png" : "off.png";
+
+        public Alarm()
+        {
+            Id = Storage.Alarms.Count;
+            Name = $"{"Alarm"} {Id}";
+        }
     }
 }

@@ -11,7 +11,57 @@
     </ContentPage.ToolbarItems>
 
     <ScrollView>
-        <StackLayout>
+        <StackLayout x:Name="list">
+            <!--<ListView ItemsSource="{Binding list}" x:Name="collection">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid BackgroundColor="#0DFFFFFF" VerticalOptions="Start" Padding="10">
+                            <Grid.GestureRecognizers>
+                                <TapGestureRecognizer NumberOfTapsRequired="1"/>
+                            </Grid.GestureRecognizers>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition Width="auto"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Source="{Binding Icon}" HorizontalOptions="End" WidthRequest="50" HeightRequest="50"/>
+                            <StackLayout>
+                                <Label TextColor="White" Text="{Binding Time}" FontSize="50"/>
+                                <Label Text="{Binding Type}"/>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label TextColor="White" Text="Mon" IsVisible="{Binding Days[0]}"/>
+                                    <Label TextColor="White" Text="Tue" IsVisible="{Binding Days[1]}"/>
+                                    <Label TextColor="White" Text="Wed" IsVisible="{Binding Days[2]}"/>
+                                    <Label TextColor="White" Text="Thu" IsVisible="{Binding Days[3]}"/>
+                                    <Label TextColor="White" Text="Fri" IsVisible="{Binding Days[4]}"/>
+                                    <Label TextColor="White" Text="Sat" IsVisible="{Binding Days[5]}"/>
+                                    <Label TextColor="White" Text="Sun" IsVisible="{Binding Days[6]}"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>-->
+            <!--<Grid BackgroundColor="#0DFFFFFF" VerticalOptions="Start" Padding="10">
+                <Grid.GestureRecognizers>
+                    <TapGestureRecognizer NumberOfTapsRequired="1"/>
+                </Grid.GestureRecognizers>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+                <Image Source="off.png" HorizontalOptions="End" WidthRequest="50" HeightRequest="50"/>
+                <StackLayout>
+                    <Label TextColor="White" Text="06:00" FontSize="50"/>
+                    <Label Text="MiSmart"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Label TextColor="White" Text="Mon"/>
+                        <Label TextColor="White" Text="Tue"/>
+                        <Label TextColor="White" Text="Wed"/>
+                        <Label TextColor="White" Text="Thu"/>
+                        <Label TextColor="White" Text="Fri"/>
+                    </StackLayout>
+                </StackLayout>
+            </Grid>-->
             <Label x:Name="noAlarms" Text="You have no configured alarms. Press '+' to add one." 
                HorizontalOptions="Center"
                LineBreakMode="WordWrap"

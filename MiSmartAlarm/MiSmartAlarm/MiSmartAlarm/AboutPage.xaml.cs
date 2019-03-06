@@ -26,10 +26,5 @@ namespace MiSmartAlarm
         {
             Device.OpenUri(new Uri("https://michael-xfox.com/"));
         }
-
-        private void Rate_Clicked(object sender, EventArgs e)
-        {
-            Device.OpenUri(new Uri("https://play.google.com/"));
-        }
     }
 }

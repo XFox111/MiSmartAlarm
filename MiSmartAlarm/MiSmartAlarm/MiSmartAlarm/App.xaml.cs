@@ -16,7 +16,7 @@ namespace MiSmartAlarm
 
         protected override void OnStart()
         {
-            // Handle when your app starts
+            Storage.Load();
         }
 
         protected override void OnSleep()

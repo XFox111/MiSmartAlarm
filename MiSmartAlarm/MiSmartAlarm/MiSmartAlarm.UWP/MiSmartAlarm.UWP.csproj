@@ -106,6 +106,8 @@
     <Content Include="Assets\Icons\add.png" />
     <Content Include="Assets\Icons\delete.png" />
     <Content Include="Assets\Icons\info.png" />
+    <Content Include="Assets\Icons\off.png" />
+    <Content Include="Assets\Icons\on.png" />
     <Content Include="Assets\Icons\save.png" />
     <Content Include="Assets\Icons\settings.png" />
     <Content Include="Assets\LargeTile.scale-100.png" />
@@ -148,7 +150,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.4.0.1029999" />
+    <PackageReference Include="Xamarin.Forms" Version="4.0.0.94569-pre3" />
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.9" />
   </ItemGroup>
   <ItemGroup>
