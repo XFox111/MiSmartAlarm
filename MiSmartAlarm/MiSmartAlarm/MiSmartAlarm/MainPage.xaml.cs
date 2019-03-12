@@ -40,7 +40,7 @@ namespace MiSmartAlarm
                 Grid root = new Grid();
                 TapGestureRecognizer recognizer = new TapGestureRecognizer
                 {
-                    CommandParameter = i.Id,
+                    CommandParameter = i,
                     NumberOfTapsRequired = 1
                 };
                 StackLayout content = new StackLayout();
@@ -94,8 +94,7 @@ namespace MiSmartAlarm
 
         private async void Recognizer_Tapped(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new AlarmPage());
-            //(sender as TapGestureRecognizer).CommandParameter as string;
+            await Navigation.PushAsync(new AlarmPage((e as TappedEventArgs).Parameter as Alarm));
         }
     }
 }

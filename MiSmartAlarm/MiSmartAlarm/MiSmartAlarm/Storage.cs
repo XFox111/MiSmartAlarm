@@ -12,14 +12,13 @@ namespace MiSmartAlarm
 
         public static void Load()
         {
-            try
+            if (Application.Current.Properties.ContainsKey("alarms"))
             {
-                if (Application.Current.Properties.ContainsKey("alarms"))
-                    Alarms = JsonConvert.DeserializeObject<List<Alarm>>(Application.Current.Properties["alarms"] as string);
-                else
-                    throw new Exception();
+                string raw = Application.Current.Properties["alarms"].ToString();
+                Alarms = JsonConvert.DeserializeObject<dynamic>(raw) as List<Alarm>;
             }
-            catch
+            //    Alarms = JsonConvert.DeserializeObject<List<Alarm>>(Application.Current.Properties["alarms"] as string);
+            else
             {
                 Alarms = new List<Alarm>();
                 Save();

@@ -14,7 +14,6 @@ namespace MiSmartAlarm
             if (alarm != null)
                 Alarm = alarm;
         }
-
         protected override void OnAppearing()
         {
             base.OnAppearing();
