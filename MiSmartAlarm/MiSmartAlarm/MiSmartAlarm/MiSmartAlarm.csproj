@@ -11,7 +11,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="Xamarin.Forms" Version="4.0.0.169046-pre5" />
     <PackageReference Include="Xamarin.Forms.Theme.Base" Version="1.0.0.43-pre1" />
     <PackageReference Include="Xamarin.Forms.Theme.Dark" Version="1.0.0.43-pre1" />
